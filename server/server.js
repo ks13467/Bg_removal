@@ -5,7 +5,7 @@ import { connect } from 'mongoose'
 import connectDB from './configs/mongodb.js'
 
 //App Config
-const PORT = process.env.PORT || 4000
+const PORT = 4000
 const app = express()
 await connectDB()
 
